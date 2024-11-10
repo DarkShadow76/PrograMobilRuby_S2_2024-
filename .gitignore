@@ -1,0 +1,38 @@
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos y carpetas de configuración de entorno
+.env
+*.env
+
+# Archivos de configuración de editores
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos de logs
+log/*.log
+*.log
+
+# Archivos de base de datos de desarrollo y producción
+db/*.sqlite3
+db/*.sqlite3-journal
+
+# Esquema de la base de datos
+/db/schema.rb
+
+# Archivos de migraciones compiladas
+/db/migrate/*.rb~
+
+# Archivos de cache y archivos temporales
+tmp/
+.cache
+
+# Gemas instaladas
+/vendor/bundle
+
+# Archivos de sistema generados por MacOS
+*.swp
+*.swo
